@@ -14,7 +14,7 @@ export default function Contact() {
       <PageHero eyebrow={t.nav.contact} title={b.title} sub={b.sub} />
       <section className="py-20">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-5">
-          <div className="lg:col-span-3">
+          <div id="book" className="scroll-mt-28 lg:col-span-3">
             <BookingForm styles={bookingStyles} />
           </div>
           <div className="space-y-px border border-white/10 bg-white/10 self-start lg:col-span-2">

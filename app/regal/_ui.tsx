@@ -61,7 +61,7 @@ export function Nav() {
           <Link href="/" className="text-[11px] normal-case tracking-normal text-white/30 hover:text-white/60">← All demos</Link>
           <LangToggle className="border border-[#C6B896]/40 px-3 py-1 text-xs text-[#E8DCC3] hover:bg-[#C6B896]/10" />
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="border border-[#C6B896] bg-transparent px-5 py-2.5 text-[#E8DCC3] transition-colors hover:bg-[#C6B896] hover:text-[#101828]"
           >
             {t.nav.book}
@@ -80,7 +80,7 @@ export function Nav() {
           ))}
           <div className="mt-4 flex items-center gap-3">
             <LangToggle className="border border-[#C6B896]/40 px-4 py-2 text-sm text-[#E8DCC3]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 border border-[#C6B896] px-5 py-2.5 text-center text-[#E8DCC3]">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 border border-[#C6B896] px-5 py-2.5 text-center text-[#E8DCC3]">
               {t.nav.book}
             </Link>
           </div>
@@ -218,7 +218,7 @@ export function CTABand() {
         <h2 className={`text-3xl font-semibold text-[#E8DCC3] md:text-5xl ${DISPLAY}`}>{t.sections.ctaTitle}</h2>
         <p className="mt-4 text-[#B9C2D0]/80">{t.sections.ctaSub}</p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="bg-[#C6B896] px-9 py-3.5 font-medium text-[#101828] transition-colors hover:bg-[#E8DCC3]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#C6B896] px-9 py-3.5 font-medium text-[#101828] transition-colors hover:bg-[#E8DCC3]">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${school.phoneRaw}`} className="flex items-center gap-2 border border-white/25 px-9 py-3.5 font-medium text-white transition-colors hover:border-white/60">

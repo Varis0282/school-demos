@@ -32,7 +32,7 @@ export default function Home() {
             <p className="mt-5 max-w-lg text-lg text-[#4A3F35]/65">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
-                href={`${BASE}/contact`}
+                href={`${BASE}/contact#book`}
                 className={`rounded-full bg-[#E44D42] px-8 py-3.5 font-bold text-white shadow-lg shadow-red-200 transition-transform hover:-rotate-1 hover:scale-105 ${DISPLAY}`}
               >
                 {t.hero.cta1}

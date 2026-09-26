@@ -52,7 +52,7 @@ export default function Home() {
               className="mt-8 flex flex-wrap gap-4"
             >
               <Link
-                href={`${BASE}/contact`}
+                href={`${BASE}/contact#book`}
                 className="rounded-full bg-gradient-to-r from-[#4338CA] to-[#0EA5E9] px-8 py-3.5 font-bold text-white shadow-xl shadow-indigo-500/30 transition-transform hover:scale-105"
               >
                 {t.hero.cta1}

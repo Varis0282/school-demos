@@ -111,7 +111,7 @@ export function Nav() {
           <Link href="/" className="text-xs text-slate-400 hover:text-slate-600">← All demos</Link>
           <LangToggle className="rounded-full border border-indigo-100 px-3 py-1 text-xs font-bold text-[#4338CA] hover:bg-indigo-50" />
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="rounded-full bg-gradient-to-r from-[#4338CA] to-[#0EA5E9] px-5 py-2 text-white shadow-md shadow-indigo-500/30 transition-transform hover:scale-105"
           >
             {t.nav.book}
@@ -130,7 +130,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex items-center gap-3">
             <LangToggle className="rounded-full border border-indigo-100 px-4 py-2 text-sm font-bold text-[#4338CA]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-gradient-to-r from-[#4338CA] to-[#0EA5E9] px-5 py-2.5 text-center font-semibold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-gradient-to-r from-[#4338CA] to-[#0EA5E9] px-5 py-2.5 text-center font-semibold text-white">
               {t.nav.book}
             </Link>
           </div>
@@ -284,7 +284,7 @@ export function CTABand() {
         <h2 className="text-3xl font-bold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="mt-3 text-indigo-100">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-white px-8 py-3.5 font-bold text-[#4338CA] shadow-xl transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-white px-8 py-3.5 font-bold text-[#4338CA] shadow-xl transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${school.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-3.5 font-bold text-white transition-colors hover:bg-white/10">

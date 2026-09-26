@@ -26,7 +26,7 @@ export default function Admissions() {
               );
             })}
           </div>
-          <Link href={`${BASE}/contact`} className="mt-12 inline-flex items-center gap-2 bg-[#1D4ED8] px-8 py-4 font-semibold text-white transition-colors hover:bg-[#16181D]">
+          <Link href={`${BASE}/contact#book`} className="mt-12 inline-flex items-center gap-2 bg-[#1D4ED8] px-8 py-4 font-semibold text-white transition-colors hover:bg-[#16181D]">
             {t.hero.cta1} <ArrowUpRight className="h-4 w-4" />
           </Link>
         </div>

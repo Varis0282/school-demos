@@ -13,7 +13,7 @@ export default function Contact() {
     <>
       <PageHero title={b.title} sub={b.sub} />
       <section className="pb-16">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-5">
+        <div id="book" className="scroll-mt-28 mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-5">
           <FadeIn className="lg:col-span-3">
             <BookingForm styles={bookingStyles} />
           </FadeIn>

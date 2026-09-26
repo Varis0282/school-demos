@@ -30,7 +30,7 @@ export default function Admissions() {
             })}
           </div>
           <div className="mt-10 text-center">
-            <Link href={`${BASE}/contact`} className="inline-block rounded-lg bg-[#1E5B3F] px-8 py-3.5 font-bold text-white shadow-lg transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="inline-block rounded-lg bg-[#1E5B3F] px-8 py-3.5 font-bold text-white shadow-lg transition-transform hover:scale-105">
               {t.hero.cta1}
             </Link>
           </div>
